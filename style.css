@@ -29,8 +29,6 @@ footer{
     margin-top: 40px;
 }
 .grid_item{
-    box-shadow:#FFFFFF 0px 22px 70px 4px;
-    grid-area: span;
     background-color: white;
     height: 100px;
     width: 100px;
