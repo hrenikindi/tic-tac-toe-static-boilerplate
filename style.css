@@ -4,22 +4,26 @@ html,body{
     background: #2288F3;
     width:100%;
     height:100vh;
+    margin: 0;
+    padding: 0;
 }
 header h1{
     color:#FAB203;
     font-size: 5em;
-     -webkit-text-stroke: 5px #FFFFFF;
-     text-align: center;
-     height: 20vh;
+    -webkit-text-stroke: 5px #FFFFFF;
+    text-align: center;
+    height: 20vh;
 
 }
-footer{
+footer h3{
     color:#FFFFFF;
     -webkit-text-stroke: #FFFFFF;
     font-weight: bold;
     text-align: center;
     margin-top: 60px;
+    font-size: 30px;
 }
+
 .main_container{
     height: 45vh;
     width:22vw;
@@ -29,13 +33,52 @@ footer{
     margin-top: 40px;
 }
 .grid_item{
-    box-shadow:#FFFFFF 0px 22px 70px 4px;
-    grid-area: span;
     background-color: white;
     height: 100px;
     width: 100px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    cursor: pointer;
 }
-a{
-    color:#F54B32;
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#play_again{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    visibility: hidden;
+    opacity: 0.9;
+}
+
+
+#msg {
+    font-size: 50px;
+    color: white;
+}
+
+#btnPlayAgain {
+    padding: 10px;
+    color: white;
+    background-color: #FAB201;
+    font-size: 20px;
+    cursor: pointer;
+}
+.x {
+    color: #fab201;
+}
+
+.o {
+    color: #fab201;
 }
